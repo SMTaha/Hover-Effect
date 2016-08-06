@@ -1,0 +1,32 @@
+.hover-parent{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 213px;
+    width: 320px;
+}
+
+.hover-parent > img{
+    height: inherit;
+    width: inherit;
+}
+.caption{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    top: 0;
+    left: 0;
+    display: table;
+    opacity: 0;
+}
+
+.caption:hover{
+    opacity: 1;
+}
+
+p{
+    color: aliceblue;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
